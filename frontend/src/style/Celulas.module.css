@@ -1,0 +1,45 @@
+.boxCelula {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border: 2px solid black;
+	height: 150px;
+	width: 16%;
+}
+
+.celulaBordasTopBotton {
+	display: flex;
+	/* border: 2px solid blue; */
+	height: 10%;
+	width: 100%;
+}
+
+.celulaBordasTopBottonArmadilha {
+	display: flex;
+	/* border: 2px solid blue; */
+	height: 10%;
+	width: 100%;
+	background-color: green;
+}
+
+.celulaBordasRightLeft {
+	display: flex;
+	/* border: 2px solid purple; */
+	height: 80%;
+	width: 10%;
+}
+
+.celulaBordasRightLeftArmadilha {
+	display: flex;
+	/* border: 2px solid purple; */
+	height: 80%;
+	width: 10%;
+	background-color: green;
+}
+
+.celulaCentro {
+	display: flex;
+	/* border: 2px solid greenyellow; */
+	height: 80%;
+	width: 80%;
+}
